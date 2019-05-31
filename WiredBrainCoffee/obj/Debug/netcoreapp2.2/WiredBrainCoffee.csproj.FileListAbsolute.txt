@@ -32,3 +32,6 @@ D:\WiredBrainCoffee\WiredBrainCoffee\obj\Debug\netcoreapp2.2\Razor\Pages\Contact
 D:\WiredBrainCoffee\WiredBrainCoffee\obj\Debug\netcoreapp2.2\Razor\Pages\Feedback.g.cshtml.cs
 D:\WiredBrainCoffee\WiredBrainCoffee\obj\Debug\netcoreapp2.2\Razor\Pages\Item.g.cshtml.cs
 D:\WiredBrainCoffee\WiredBrainCoffee\obj\Debug\netcoreapp2.2\Razor\Pages\Menu.g.cshtml.cs
+D:\WiredBrainCoffee\WiredBrainCoffee\obj\Debug\netcoreapp2.2\Razor\Pages\Confirmation.g.cshtml.cs
+D:\WiredBrainCoffee\WiredBrainCoffee\obj\Debug\netcoreapp2.2\Razor\Pages\MobileWidget.g.cshtml.cs
+D:\WiredBrainCoffee\WiredBrainCoffee\obj\Debug\netcoreapp2.2\Razor\Pages\Components\PopularBrews\Default.g.cshtml.cs

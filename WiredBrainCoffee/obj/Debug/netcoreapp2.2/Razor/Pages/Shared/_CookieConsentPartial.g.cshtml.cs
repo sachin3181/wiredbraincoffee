@@ -18,13 +18,18 @@ using WiredBrainCoffee;
 
 #line default
 #line hidden
+#line 2 "D:\WiredBrainCoffee\WiredBrainCoffee\Pages\_ViewImports.cshtml"
+using WiredBrainCoffee.Models;
+
+#line default
+#line hidden
 #line 1 "D:\WiredBrainCoffee\WiredBrainCoffee\Pages\Shared\_CookieConsentPartial.cshtml"
 using Microsoft.AspNetCore.Http.Features;
 
 #line default
 #line hidden
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"a5f62ee8263032ac67353bbeb598d4d7c90804f0", @"/Pages/Shared/_CookieConsentPartial.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"1ca6ec018236db647dc4f1bc0a71ffdafa23720a", @"/Pages/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"df4fe7d8a68c2883238bd751df3f1334211719a0", @"/Pages/_ViewImports.cshtml")]
     public class Pages_Shared__CookieConsentPartial : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     {
         private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_0 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("asp-page", "/Privacy", global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
@@ -74,7 +79,7 @@ using Microsoft.AspNetCore.Http.Features;
             WriteLiteral("    <div id=\"cookieConsent\" class=\"alert alert-info alert-dismissible fade show\" role=\"alert\">\r\n        Use this space to summarize your privacy and cookie use policy. ");
             EndContext();
             BeginContext(439, 37, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "a5f62ee8263032ac67353bbeb598d4d7c90804f04482", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "a5f62ee8263032ac67353bbeb598d4d7c90804f04619", async() => {
                 BeginContext(462, 10, true);
                 WriteLiteral("Learn More");
                 EndContext();

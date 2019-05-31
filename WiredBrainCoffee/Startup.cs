@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Routing;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using WiredBrainCoffee.Services;
@@ -33,7 +34,19 @@ namespace WiredBrainCoffee
             });
 
 
-            services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
+            services.AddMvc()
+                .SetCompatibilityVersion(CompatibilityVersion.Version_2_2)
+                .AddRazorPagesOptions(options =>
+                {
+                    options.Conventions.AddPageRoute("/index", "home");
+                    options.Conventions.AddPageRoute("/index", "wired");
+                });
+
+            services.Configure<RouteOptions>(options =>
+            {
+                options.ConstraintMap.Add("promo", typeof(PromoConstraint));
+            });
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

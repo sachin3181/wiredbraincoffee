@@ -18,8 +18,13 @@ using WiredBrainCoffee;
 
 #line default
 #line hidden
+#line 2 "D:\WiredBrainCoffee\WiredBrainCoffee\Pages\_ViewImports.cshtml"
+using WiredBrainCoffee.Models;
+
+#line default
+#line hidden
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"7091c65830b0329e613be026ede8a57552863778", @"/Pages/_ViewStart.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"1ca6ec018236db647dc4f1bc0a71ffdafa23720a", @"/Pages/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"df4fe7d8a68c2883238bd751df3f1334211719a0", @"/Pages/_ViewImports.cshtml")]
     public class Pages__ViewStart : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     {
         #pragma warning disable 1998

@@ -17,10 +17,10 @@ namespace WiredBrainCoffee.Pages
         {
            _menuService = menuService;
         }
-        public void OnGet(int id)
+        public void OnGet(string slug)
         {
            
-            Item = _menuService.GetMenuItems().FirstOrDefault(x => x.Id == id);
+            Item = _menuService.GetMenuItems().FirstOrDefault(x => x.Slug == slug);
         }
     }
 }
